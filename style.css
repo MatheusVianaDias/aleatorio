@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+
+body {
+    background: black;
+    color: white;
+}
+.juba{
+    margin: 5px;
+    padding: 12px;
+    background:linear-gradient(to left, red , rgb(24, 24, 112) , rgb(110, 12, 29));
+    border-radius: 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+    box-shadow: 5px 5px rgb(155, 32, 32);
+}
+
+.jujuba{
+    margin: 20px;
+    padding: 12px;
+    background:linear-gradient(to left, red , rgb(24, 24, 112) , rgb(110, 12, 29));
+    border-radius: 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100px;
+    box-shadow: 5px 5px rgb(155, 32, 32);
+}
+
+.jujuba:hover{
+    box-shadow: 4px 4px 4px 3px rgba(88, 0, 0, 0.733);
+    transition: 2s; 
+    content: "oi";
+    
+}
+
+.img {
+    width: 90px;
+    height: 150px;
+}
+
+.jujuba {
+    background: orange;
+    width: 300px;
+    height: 150px;
+    animation: moveToLeft 2s ease-in-out;
+    animation-delay:1000ms;
+  }
+
+  .jujuba{
+    background: orange;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    animation: moveToLeft 5s linear infinite;
+    animation-delay: 1000ms;
+  }
+
+  @keyframes moveToLeft {
+    0% {
+      transform: translateX(0px);
+      background: linear-gradient(
+        to right,
+        #ff8177 0%,
+        #ff867a 0%,
+        #ff8c7f 21%,
+        #f99185 52%,
+        #cf556c 78%,
+        #b12a5b 100%
+      );
+    }
+    25% {
+      transform: translateX(250px);
+      background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+    50% {
+      transform: translateY(200px) translateX(200px);
+      background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+      
+    }
+
+    75% {
+      transform: translateX(0px) translateY(200px);
+      background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    }
+    100% {
+      transform: translateY(0px);
+      
+    }
+  }
+
+  
